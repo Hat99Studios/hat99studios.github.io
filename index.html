@@ -49,8 +49,9 @@
 
     main {
       max-width: 1000px;
-      margin: auto;
+      margin: 0 auto;
       padding: 72px 24px 96px;
+      text-align: center;
     }
 
     .eyebrow {
@@ -78,6 +79,8 @@
 
     .intro {
       max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
       font-size: 19px;
     }
 
@@ -93,6 +96,7 @@
       );
       border: 1px solid #42343b;
       border-radius: 22px;
+      text-align: center;
     }
 
     .tag {
@@ -117,6 +121,7 @@
     .links {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 12px;
       margin-top: 28px;
     }
@@ -162,9 +167,12 @@
 
       .links {
         flex-direction: column;
+        align-items: center;
       }
 
       .button {
+        width: 100%;
+        max-width: 280px;
         text-align: center;
       }
     }
@@ -255,19 +263,3 @@
 
 </body>
 </html>
-
-
-/* CENTER ALL CONTENT */
-
-main {
-  text-align: center;
-}
-
-.intro {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.links {
-  justify-content: center;
-}
